@@ -1,18 +1,19 @@
-/* If you are not familiar with CSS, I don't suggest you making any changes but color */
+/* If you are not familiar with CSS, I don't suggest you making any changes but color*/
 
 body {
   font-family: Helvetica, Arial;
+  color: #484849;
 }
 /* Font for the entire e-card*/
 
 p {
   text-align: center;
 }
-/* align text in the e-card*/
 
 header {
-  width: 580px;
   margin: auto;
+  width: 90%;
+  padding-left: 15px
 }
 
 #logo>img {
@@ -23,11 +24,14 @@ header {
 h1 {
   font-size: 20px;
   text-align: center;
+  text-transform: capitalize;
 }
 /* font and alignment of the top heading*/
 
 header>p {
-  font-size: 14px;
+  font-size: 1em;
+  text-align: left;
+  line-height: 1.5em;
 }
 
 #importance {
@@ -106,7 +110,7 @@ span[class*="number"] {
   padding-top: 30px;
   padding-bottom: 10px;
   font-size: 40px;
-}
+} 
 
 .numbers-orange {
   padding-right: 5px;
@@ -137,7 +141,7 @@ span[class*="number"] {
 
 #top-right {
   background-image: url("https://yinxx724.github.io/svg/gradcap.svg");
-  background-position: center;
+  background-position: center; 
   background-size: 310px;
   background-repeat: no-repeat;
   border-top: #FF6C0C solid 5px;
@@ -146,7 +150,7 @@ span[class*="number"] {
 
 #bottom-left {
   background-image: url("https://yinxx724.github.io/svg/atom.svg");
-  background-position: center;
+  background-position: center; 
   background-size: 360px;
   background-repeat: no-repeat;
   border-bottom: #FF6C0C solid 5px;
@@ -162,6 +166,10 @@ span[class*="number"] {
   margin: 10px auto 5px auto;
 }
 
+#check>p {
+  line-height: 1.5em;
+}
+
 #match-number {
   color: #FF6C0C;
   font-size: 28px;
@@ -169,7 +177,7 @@ span[class*="number"] {
   vertical-align: sub;
 }
 
-a {
+#check a {
   color: #FF6C0C;
   font-weight: bold
 }
@@ -178,37 +186,37 @@ a {
   header {
     width: auto;
   }
-
+  
   h1 {
     font-size: 16px;
     text-align: center;
   }
-
+  
   header>p {
-    font-size: 12px;
+    font-size: 1em;
   }
-
+  
   #importance {
     display: none;
   }
-
+  
   #main {
     width: auto;
     margin: auto;
   }
-
+  
   .benefits {
     display: inline-block;
     width: 140px;
     height: 140px;
     padding: 5px;
   }
-
+  
   span[class*="number"] {
     padding-top: 35px;
     padding-bottom: 10px;
     font-size: 30px;
-  }
+  } 
   .benefits>p {
     font-size: 12px;
   }
@@ -226,7 +234,7 @@ a {
     border-top: none;
     border-bottom: 5px solid #FF6C0C;
   }
-
+  
   #bottom-left {
     border: none;
   }
