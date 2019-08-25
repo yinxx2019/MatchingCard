@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://yinxx724.github.io/MatchingCard/style.css">
+    <title>E-card template</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img src="http://www.identity.caltech.edu/site_images/445-logo-sample-small.png" alt="logo">
+      </div>
+      <h1>Your employer can double your impact</h1>
+      <p>Dear {{Name}},</p>
+      <p>We would like to thank you again for your gift to Caltech. Your contribution makes a difference.</p>
+      <p>We noticed that your employer is {{Company}}. {{Company}} have generously matched its employee's donations to Caltech, bringing invaluable philanthropy impact.</p>
+    </header>
+    <div id="main">
+      <p>In the recent five years, matching gifts have contributed to:</p>
+      <div class="benefits top left" id="top-left">
+        <p><span class="numbers-white">50+</span>Scholarships, Fellowships and Endowments</p>
+      </div>
+      <div class="benefits top right" id="top-right">
+        <p><span class="numbers-orange">$800K</span>Academic Programs and Professorships</p>
+      </div>
+      <div class="benefits bottom left" id="bottom-left">
+        <p><span class="numbers-orange">24+</span>Lab and Research Fund</p>
+      </div>
+      <div class="benefits bottom right" id="bottom-right">
+        <p><span class="numbers-white">$2.73M</span>Total Matching Gifts</p>
+      </div>
+    </div>
+    
+    <!-- use line break"<br></br> at the end of sentences with fewer lines" -->
+  
+    <div id="check">
+      <p><span id="match-number">200+ </span>companies have matched their employee's gifts Caltech. You can help keep the philanthropic number growing!</p>
+      <p>Click <a href="">here</a> to check yours and your spouse's matching gifts eligibility or update your employment information.</p>
+    </div>
+    <div id="importance">
+      <div id="gifts">
+        <i id="first-gift-icon" class="fa fa-gift small-gift" aria-hidden="true"></i><span class="signs">+</span><i id="second-gift-icon" class="fa fa-gift small-gift" aria-hidden="true"></i><span class="signs">=</span><i class="fa fa-gift" aria-hidden="true" id="big-gift"></i>
+      </div>
+      <span id="your-gift" class="caption">Your Gift</span><span id="match" class="caption">Match</span><span id="impact" class="caption">Impact</span>
+    </div>
+  </body>
+</html>
